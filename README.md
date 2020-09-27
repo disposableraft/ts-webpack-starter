@@ -10,7 +10,7 @@ A Typescript and Webpack starter for small apps or pages that don't require larg
 
 ## Install
 
-One way to scaffold begin a new project is to use [degit](https://github.com/Rich-Harris/degit). 
+One way to scaffold a new project is to use [degit](https://github.com/Rich-Harris/degit). 
 
 Degit copies the repository while excluding git.
 
