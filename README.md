@@ -1,20 +1,35 @@
 # Typescript and Webpack Starter
 
-A dev-mode Typescript and Webpack starter for small apps or pages that don't require larger libraries and frameworks. Like for when you just want to experiment or something.
+A Typescript and Webpack starter for small apps or pages that don't require large libraries and frameworks. Like for when you just want to experiment or something. Includes basic features, such as:
+
+- A development server
+- Typescript checks running in a separate process
+- CSS and image (png|jgp|gif|svg) imports
+- Source maps
+- No production defaults
 
 ## Install
 
-`npm install`
+One way to scaffold begin a new project is to use [degit](https://github.com/Rich-Harris/degit). 
 
-## Develop
+Degit copies the repository while excluding git.
 
-`npm run start`
+Copy the starter files:
 
-## Basic Features
+```bash
+# Prepare the project directory
+mkdir my-project
+cd my-project
 
-- Development web server with reloading
-- Typescript checking done in separate process
-- Source mapping
-- CSS imports
-- Image (png|jgp|gif|svg) imports
-- No production defaults
+# Copy the repos files into the current directory
+npx degit disposableraft/ts-webpack-starter
+
+# Initialize a new git repository
+git init
+
+# Install the deps
+npm install
+
+# Start coding
+npm run start
+```
